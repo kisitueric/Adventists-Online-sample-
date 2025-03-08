@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Main Adventists Online</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="bodyBg">
+  <header>
+  
+    <div class="menu-button" onclick="toggleMenu()">
+     <span class="menuIcon"> <i class="material-icons">menu</i></span>
+    </div>
+
+    <div class="menu" id="menu">
+      <div class="menu-header">
+      
+        <div class="menu-close" onclick="toggleMenu()"> <i class="material-icons">close</i>
+        </div>
+      </div>
+      <div>
+        <input class="searchin" placeholder="Search it here..." class=" searchIcon" >
+      </div>
+<nav id="navMenu">       <ul>         <li><a href="trending.html">Trending•••</a></li>     <li><a href="#home">°Home</a></li>       <li><a href="#choirs">°Choirs & Songs Lyrics</a></li>   
+<li><a href="chatpage.html">°Chat •</a></li>       <li><a href="#churches">°Churches</a></li>       <li><a href="#sermons">°Sermons</a></li>       <li><a href="#pastors">°Pastors</a></li>      <li><a href="#books">°Books&Lessons</a></li>       <li><a href="#whoarewe">°Who are Seventh-day Adventists?</a></li>       <li><a href="#fundamentals">°28 fundamental Beliefs</a></li>       <li><a href="#prophecy">°Prophecy</a></li>            <li><a href="enyimba">°Ennyimba za Kristo</a></li>    
+       <li><a href="#">°Hymns</a></li>      
+<li><a href="#discover">°Discover more°</a></li>       
+<li><a href="aboutpage.html">°About</a></li>  
+
+     </ul> </nav> 
+<a href="donate.html"><button class="donateBtn">Donate a Support</button></a>
+      <img src="sdalogo.png" class="company-logo" alt="Company Logo">
+    </div>
+    <!--Top Time and Greetimgs -->
+    
+<p id="greeting" style="text-align:center; color: silver;font-family:droidserif;text-decoration: italics"> <span class="greetedName"></span></p>
+ <p style="color:lightblue; position:absolute;top:0px;right:5px;" id ="clock"></p>
+ 
+ 
+ 
+<div class="typewriter">      <img src="sda1.png" class="company-logo2" alt="A">
+  <span class="typed-text"></span>
+  <span class="cursor"></span>
+</div>
+<div class="animated-title">
+  <div class="title-word title-word-2"style="color: rgba(199, 184,234,1);font-size:16px;text-decoration:italics; text-align: center; ">
+    where God's people meet •••
+    </div>
+	      <div class="title-word title-word-1" > 
+     <div class="dd">
+    <button class="dd-btn" style="text-align: center;"> NAVIGATION </button>
+  
+    <div  class="dd-content">
+ <ul>         <li><a href="trending.html">Trending•••</a></li>     <li><a href="#home">Home</a></li>       <li><a href="#choirs">Choirs & Songs Lyrics</a></li>   
+<li><a href="chatpage.html">Chat •</a></li>       <li><a href="#churches">Churches</a></li>       <li><a href="#sermons">Sermons</a></li>       <li><a href="#pastors">Pastors</a></li>      <li><a href="#books">Books&Lessons</a></li>       <li><a href="#whoarewe">Who are Seventh-day Adventists?</a></li>       <li><a href="#fundamentals">28 fundamental Beliefs</a></li>       <li><a href="#prophecy">Prophecy</a></li>            <li><a href="#enyimba">Ennyimba za Kristo</a></li>    
+       <li><a href="#">Hymns</a></li>      
+<li><a href="#discover">Discover more°</a></li>       
+<li><a href="aboutpage.html">About</a></li>  
+<a href="donate.html"><button class="donateBtn2">Donate a Support</button></a>
+     </ul> 
+  </div>
+      </div>
+    </div>
+
+<!--Search for main page -->
+<div class="title-word title-word-3">
+  
+  <div class="search-area" onclick="redirectToSearchPage()" id="searchit">
+  
+<input type="search" style="background-image: url('sda3.png'); background-repeat: no-repeat; background-position: left center; background-size: 50px; padding-left: 20px; width: 300px; height: 35px; border-radius: 5px;" placeholder=" SDA @erikis, Search everything...">
+    <div class="search-btn">
+      <i class="material-icons">search</i>
+    </div>
+  </div>
+</div>
+  
+    </header>
+    
+    
+      
+ <!-- Marquee or ticker-->
+ <div class="ticker">
+<span> <a href ="sellFlash.html" style= "text-decoration:none; font-family:droid sans; font-weight: bold; color:white;       background: linear-gradient(to top, red, yellow); padding:7px"> &nbsp;Do you need all choir Songs and sermons offline?&nbsp;&nbsp;&nbsp;Buy a flash disk 64GB with OTG kit at shs.78,000 only&nbsp;&nbsp;&nbsp;&nbsp;Buy flash disk 32GB at shs.58,000 only   &nbsp;&nbsp;&nbsp;&nbsp;Buy  Memory card 32GB at shs.52,000 only&nbsp;&nbsp;&nbsp;&nbsp;Buy Memory Card 16GB at shs.32,000 only&nbsp;&nbsp;&nbsp;Buy CD for songs of Only one Specific Choir at shs.12,000 only&nbsp;&nbsp; Tap to See more!</a></span>
+</div>
+<hr>
+
+
+
+
+  <main class="scroll-container">
+      <!-- Welcome div-->
+      
+  <h1 class="div1">Welcome To Adventists Online This is just a template site, real app shall be released one day by God's Will; but below are the features that will be in real app</h1>
+  <p> Your One stop Center for Seventh-day Adventist Church's Bible study materials and books, media including Music and luganda choirs' songs lyrics and songs download, online chating, Free Sermons and many more! Use the navigate bar above to dive you fast,  anywhere! </p>
+<p class="card animate-from-right"><i> See 'Trending...' and find news, concerts updates,advertisements and more!</i> God bless you as you explore the Adventists family network ...
+   </p>
+    <!--Choirs and about them -->
+    
+    <h1 class="div2 sticky">Choirs, Single Artists & lyrics</h1>
+    <!-- Sliding imgs or Carousel for Choirs -->
+    <h4>Top Trending Choirs</h4>
+    <div class="carousel-container">
+<div class="carousel">
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try1.jpg" alt="Image 1">
+<p>Visit Google</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try2.jpg" alt="Image 2">
+<p>Visit Bing</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try3.jpg" alt="Image 3">
+<p>Visit Yahoo</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try4.jpg" alt="Image 4">
+<p>Visit DuckDuckGo</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda1.png" alt="Image 5">
+<p>Visit Wikipedia</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda2.png" alt="Image 6">
+<p>Visit IMDB</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda3.png" alt="Image 7">
+<p>Visit GitHub</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda4.png" alt="Image 8">
+<p>Visit Stack Overflow</p>
+</a>
+</div>
+</div>
+<div class="carousel-nav">
+<button class="prev-btn">&lt;</button>
+<button class="next-btn">&gt;</button>
+</div>
+</div>
+         <!--Accordion for Choirs-->    
+            <div class="container">
+  
+  <div class="accordion">
+    <input type="radio" name="accordion" id="accordion1" checked>
+      <label for="accordion1"> » Accordion #1 </label>
+      <div class="accordion-content">
+        Accordion no. 1 content goes here. Lorem ipsum dolor sit amet.
+      </div>
+  </div>
+  
+  <div class="accordion">
+    <input type="radio" name="accordion" id="accordion2">
+      <label for="accordion2"> » Accordion #2 </label>
+      <div class="accordion-content">
+        Accordion no. 2 content goes here. Lorem ipsum dolor sit amet.
+      </div>
+  </div>
+  
+  <div class="accordion">
+    <input type="radio" name="accordion" id="accordion3">
+      <label for="accordion3"> » Accordion #3 </label>
+      <div class="accordion-content">
+        Accordion no. 3 content goes here. Lorem ipsum dolor sit amet.
+      </div>
+  </div>
+  
+  <div class="accordion">
+    <input type="radio" name="accordion" id="accordion4">
+      <label for="accordion4"> » Accordion #4 </label>
+      <div class="accordion-content">
+        Accordion no. 4 content goes here. Lorem ipsum dolor sit amet.
+      </div>
+  </div>
+  
+  </div>      
+                   
+<div class="card animate-from-left">
+<div class="card-title">CHOIRS</div>
+<div class="card-content">
+<ul>
+<li><a href="#" class="menu-item">Hebrews Choir <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Benniah Ministries <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Kazo Choir <span>&rsaquo;</span></a></li>
+</ul>
+</div>
+</div>
+
+  <!-- Chat Adventists @Online-->
+ <h1 class="div1">Chat •</h1>
+ <p class="card animate-from-left">Make friends Online directly here </p>
+ <!-- imgs sliding carousel for chat -->
+ <div class="carousel-container">
+<div class="carousel">
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try1.jpg" alt="Image 1">
+<p>Visit Google</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try2.jpg" alt="Image 2">
+<p>Visit Bing</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try3.jpg" alt="Image 3">
+<p>Visit Yahoo</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try4.jpg" alt="Image 4">
+<p>Visit DuckDuckGo</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda1.png" alt="Image 5">
+<p>Visit Wikipedia</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda2.png" alt="Image 6">
+<p>Visit IMDB</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda3.png" alt="Image 7">
+<p>Visit GitHub</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda4.png" alt="Image 8">
+<p>Visit Stack Overflow</p>
+</a>
+</div>
+</div>
+<div class="carousel-nav">
+<button class="prev-btn">&lt;</button>
+<button class="next-btn">&gt;</button>
+</div>
+</div>
+ 
+   <!-- Books, Lessons and Literature-->
+ <h1 class="div4">Books and Quarterly-Lessons</h1>
+<div class="card animate-from-right">
+<div class="card-title">ADULT LESSONS</div>
+
+<div class="card-content">
+<ul>
+<li><a href="#" class="menu-item">Lesoni Y'oluganda <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">English Adult Lesson <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Obusisimuka <span>&rsaquo;</span></a></li>
+</ul>
+</div>
+</div>
+<div class="card animate-from-top">
+<div class="card-title">ALL</div>
+<div class="card-content">
+<ul>
+<li><a href="#" class="menu-item">Enjigiriza ya Baibuli/Bible Study Guide <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Emisingi/28 Fundamental Beliefs <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Church Manual<span>&rsaquo;</span></a></li>
+</ul>
+</div>
+</div>
+<div class="card animate-from-left">
+<div class="card-title">ADVENTIST YOUTHS</div>
+<div class="card-content">
+<ul>
+<li><a href="#" class="menu-item">Cornerstone Connections <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Master Guide <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Busy Bee<span>&rsaquo;</span></a></li>
+</ul>
+</div>
+</div>
+<div class="card animate-from-bottom">
+<div class="card-title">A MUST READ & TOP RECOMMENDED</div>
+<div class="card-content">
+<ul>
+<li><a href="#" class="menu-item">The Great Controversy <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Desire of Ages<span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Steps To Christ<span>&rsaquo;</span></a></li>
+</ul>
+</div>
+</div>
+
+  <!-- Who are Sda and History-->
+<h1 class="div4">Who are Seventh-day Adventists?</h1>
+<div class="card animate-from-bottom">
+    <div class="accordion-item">
+      <div class="accordion-header">Adventists  Online</div>
+      <div class="accordion-content">
+        Lorem ipsed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 2</div>
+      <div class="accordion-content">
+        Lorem ipsum dolorulum magna sed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 3</div>
+      <div class="accordion-content">
+        Lorem ipsum dolor sit amet, conbululis ex.
+    </div>
+  </div></div>
+<div class="card-animate-from-right">
+  <div class="card-title">LEARN FROM TRUSTED SOURCES</div>
+  <div class="card-content">
+    <ul>
+      <li><a href="#" class="menu-item">CUC website <span>&rsaquo;</span></a></li>
+      <li><a href="#" class="menu-item">Prayer Meetings <span>&rsaquo;</span></a></li>
+      <li><a href="#" class="menu-item">Bible Study <span>&rsaquo;</span></a></li>
+    </ul>
+  </div>
+</div>
+
+  <!-- 28 Fundamental  Beliefs-->
+<h1 class="div3">28 Fundamental Beliefs</h1>
+<div class="card animate-from-bottom">
+<div class=" colorful">
+    <h2 style="color:Orange">WHAT DO ADVENTISTS BELIEVE?</h2
+
+<h4>ANSWER: Adventists Believe in All that is in the Bible and Only what is in the Bible! 'Baibuli Yonna Ate Yokka! Tap to learn more... </h4>
+<p>Yes, it True, Adventists Believe All, Adventists summarise the whole Bible into Six '6' major doctrines which further expanded into 28 Fundamental Beliefs! Remember, We believe in all that the  Bible says and Only in the Bible_no extra source of our faith except for the Bible and the Bible alone</p>
+  <!-- download 28 Fundamental Beliefs button-->
+<a href="#download28"><button>Download fullBook</button></a>
+  <!-- html 28 Fundamentals go here-->
+<ol>
+<li><strong>Adventists Believe</strong>
+<p>content goes here are committed to protecting the privacy and security of our users. This Privacy Policy explains how we collect, use, and protect personal data.</p>
+<li><strong>The Word</strong></li>
+</ol>
+</div>
+</div>
+
+
+<div class="card animate-from-right">
+<div class="card-title">LEARN FROM OTHER SOURCES</div>
+<div class="card-content">
+<ul>
+<li><a href="#" class="menu-item">CUC Website <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Benniah Ministries <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Kazo Choir <span>&rsaquo;</span></a></li>
+</ul>
+</div>
+</div>
+    <div class="accordion-item">
+      <div class="accordion-header">Adventists  Online</div>
+      <div class="accordion-content">
+        Lorem ipsed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 2</div>
+      <div class="accordion-content">
+        Lorem ipsum dolorulum magna sed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 3</div>
+      <div class="accordion-content">
+        Lorem ipsum dolor sit amet, conbululis ex.
+    </div>
+  </div>
+
+
+  <!-- Churches, Leadership, UU , CUC , Local and International content, abouts go here-->
+  
+<h1 class="div5">Churches and Ministries</h1>
+<!-- Carousel for  top Churches in Uganda -->
+<div class="carousel-container">
+<div class="carousel">
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try1.jpg" alt="Image 1">
+<p>Visit Google</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try2.jpg" alt="Image 2">
+<p>Visit Bing</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try3.jpg" alt="Image 3">
+<p>Visit Yahoo</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try4.jpg" alt="Image 4">
+<p>Visit DuckDuckGo</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda1.png" alt="Image 5">
+<p>Visit Wikipedia</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda2.png" alt="Image 6">
+<p>Visit IMDB</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda3.png" alt="Image 7">
+<p>Visit GitHub</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda4.png" alt="Image 8">
+<p>Visit Stack Overflow</p>
+</a>
+</div>
+</div>
+<div class="carousel-nav">
+<button class="prev-btn">&lt;</button>
+<button class="next-btn">&gt;</button>
+</div>
+</div>
+
+<div class="card animate-from-right">     <div class="accordion-item">
+      <div class="accordion-header">Adventists  Online</div>
+      <div class="accordion-content">
+        Lorem ipsed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 2</div>
+      <div class="accordion-content">
+        Lorem ipsum dolorulum magna sed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 3</div>
+      <div class="accordion-content">
+        Lorem ipsum dolor sit amet, conbululis ex.
+    </div>
+  </div>
+</div>
+
+<div class="card animate-from-right">
+<div class="card-title">MORE CHURCHES</div>
+<div class="card-content">
+<ul>
+<li><a href="#" class="menu-item">Nabbingo SDA Church <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Kyengera SDA Church <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Busega SDA Church<span>&rsaquo;</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+  <!-- Pastors and EVANGELISTs content goes below here-->
+<h1 class="div1">Pastors</h1>
+<div class="card animate-from-right">
+<!-- Carousel goes here -->
+<div class="carousel-container">
+<div class="carousel">
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try1.jpg" alt="Image 1">
+<p>Visit Google</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try2.jpg" alt="Image 2">
+<p>Visit Bing</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try3.jpg" alt="Image 3">
+<p>Visit Yahoo</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="try4.jpg" alt="Image 4">
+<p>Visit DuckDuckGo</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda1.png" alt="Image 5">
+<p>Visit Wikipedia</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda2.png" alt="Image 6">
+<p>Visit IMDB</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda3.png" alt="Image 7">
+<p>Visit GitHub</p>
+</a>
+</div>
+<div class="carousel-item">
+<a href="(link unavailable)" target="_blank">
+<img src="sda4.png" alt="Image 8">
+<p>Visit Stack Overflow</p>
+</a>
+</div>
+</div>
+<div class="carousel-nav">
+<button class="prev-btn">&lt;</button>
+<button class="next-btn">&gt;</button>
+</div>
+</div>
+
+
+</div>
+  
+<div class="container">
+  <div class="accordion">
+    <input type="radio" name="accordion-group-1" id="accordion1-1" checked>
+    <label for="accordion1-1"> » Accordion #1 </label>
+    <div class="accordion-content"> Accordion no. 1 content goes here. Lorem ipsum dolor sit amet. </div>
+  </div>
+  <div class="accordion">
+    <input type="radio" name="accordion-group-1" id="accordion1-2">
+    <label for="accordion1-2"> » Accordion #2 </label>
+    <div class="accordion-content"> Accordion no. 2 content goes here. Lorem ipsum dolor sit amet. </div>
+  </div>
+  <!-- ... -->
+</div>
+
+
+<div class="card animate-from-right">
+<div class="card-title">MORE EVANGELISTS & PASTORS</div>
+<div class="card-content">
+<ul>
+<li><a href="#" class="menu-item">Ev. Pr. Richard Kasumba<span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Ev. Pr. Kabuye Richard <span>&rsaquo;</span></a></li>
+<li><a href="#" class="menu-item">Bp.Pr. Kajoba Samuel<span>&rsaquo;</span></a></li>
+</ul>
+</div>
+</div>
+
+
+  <!--Sermons, local and International, links, iframes, audios, youtube videos go here-->
+<h1 class="div2">Sermons</h1>
+<div class="card animate-from-right">
+    <div class="accordion-item">
+      <div class="accordion-header">Adventists  Online</div>
+      <div class="accordion-content">
+        Lorem ipsed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 2</div>
+      <div class="accordion-content">
+        Lorem ipsum dolorulum magna sed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 3</div>
+      <div class="accordion-content">
+        Lorem ipsum dolor sit amet, conbululis ex.
+    </div>
+  </div>
+
+</div>
+
+
+  <!-- Prophecy, iframes, videos, important sites, books and more Prophecylectures go here-->
+<h1 class="div3">Prophecy</h1>
+<div class="card animate-from-right">
+    <div class="accordion-item">
+      <div class="accordion-header">Adventists  Online</div>
+      <div class="accordion-content">
+        Lorem ipsed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 2</div>
+      <div class="accordion-content">
+        Lorem ipsum dolorulum magna sed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 3</div>
+      <div class="accordion-content">
+        Lorem ipsum dolor sit amet, conbululis ex.
+    </div>
+  </div>
+
+</div>
+
+  <!--Ennyimba Za Kristo , iframes to luganda hymns, youtube video iframes, free audio download go here , free computer pptx download -->
+<h1 class="div5">Ennyimba za Kristo</h1>
+<div class="card animate-from-right">
+    <div class="accordion-item">
+      <div class="accordion-header">Adventists  Online</div>
+      <div class="accordion-content">
+        Lorem ipsed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 2</div>
+      <div class="accordion-content">
+        Lorem ipsum dolorulum magna sed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 3</div>
+      <div class="accordion-content">
+        Lorem ipsum dolor sit amet, conbululis ex.
+    </div>
+  </div></div>
+
+  <!--English Hymns iframes go here , youtube video iframes, and online books -->
+<h1 class="div5">Hymns</h1>
+<div class="card animate-from-right">
+    <div class="accordion-item">
+      <div class="accordion-header">Adventists  Online</div>
+      <div class="accordion-content">
+        Lorem ipsed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 2</div>
+      <div class="accordion-content">
+        Lorem ipsum dolorulum magna sed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 3</div>
+      <div class="accordion-content">
+        Lorem ipsum dolor sit amet, conbululis ex.
+    </div>
+  </div></div>
+
+  <!-- Discover more apps from playstore, important websites, best books, updates, news ,more pastors and videos, downloadable content-->
+<h1 class="div1">Discover more</h1>
+<div class="card animate-from-right">
+    <div class="accordion-item">
+      <div class="accordion-header">Adventists  Online</div>
+      <div class="accordion-content">
+        Lorem ipsed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 2</div>
+      <div class="accordion-content">
+        Lorem ipsum dolorulum magna sed, convallis ex.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">Topic 3</div>
+      <div class="accordion-content">
+        Lorem ipsum dolor sit amet, conbululis ex.
+    </div>
+  </div>
+</div>
+    
+    
+    
+  <!-- Convince users by all means to donate, set up api for online donations, all donations means or money transfer methods-->
+<h1 class="div3">Donate</h1>
+<div class="card animate-from-right">
+    <div class="lyrics">
+    <button class="lyrics-btn"> Show Lyrics</button>
+    <div class="lyrics-content">
+<h1> Olugendo -Hebrews Church</h1>
+ <div class="lyrics">
+
+<button class="create-btn">Post the Lyrics for This Song</button>
+<div class="create-content">
+  <textarea class="textarea" placeholder="Please add or update lyrics by typing it here in organised paragraphs!...
+Please be accurate!">
+</textarea>
+<button type="submit" style="font-family:Times New Roman;float:right; color: blue; background-color:lightblue; outline:indigo; border-radius: 6px;">Post Lyrics</button>
+   </div>
+</div>
+ </div>
+  </div>
+</div>
+
+
+  <!-- Shows percentage of page position-->
+        <div class="percentage-indicator"></div>
+        
+
+  
+      
+ <div class="container content">
+      <div class="iframe-card">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID1"></iframe>
+
+        </div>
+      </div>
+    
+  </main>
+    <!-- time and date to footer-->
+      <p style="color:grey; 
+      text-align:center;
+      font-size:20%;font-family:lato, tahoma;text-decoration: italics;width:100%;" id="date"></p>
+     
+      <p id= "Thanks"  style="color:grey; 
+      text-align:center;
+      font-size:20%;font-family:lato, tahoma;text-decoration: italics;width:100%;"></p>
+  <div class ="footer1">
+    
+      <p>© 2025 Adventists Online Evangelistic Team.
+      @erikis All rights reserved.</p>
+      <!--News Letter-->
+      <div class="box">
+        <h3>Subscribe
+         for News Letter</h3>
+        <form action="">
+            <input type="email" placeholder="Email Address">
+            <button>Subscribe</button>
+        </form>
+    </div>
+    
+      <p>Support:
+     <a href="emailto:ugandaadventistvoices@gmail.com"> ugandaadventistvoices@gmail.com</a></p>
+     <p> Whatsapp:<a href="whatsapp://send?phone=+256783101345&text=Hello%2C%20I%20really%20love%20Adventists%20Online%20App!%20I'd%20like%20you%20to%20make%20me%20a%20specific%20post%20or%20Advert%20on%20the%20app!" target="_blank" style="text-decoration:none;color: silver;">
+       Talk to Developer</a></p>
+
+ <ul style="list-style-type:none; "> <li><a href="aboutpage.html" style="text-decoration:none; color: white"> About </a></li>
+          <li><a href="whatsapp://send?phone=+256783101345&text=Hello, I really love Adventists Online App! I'd like you to make me a specific post or Advert on the app!" target="_blank" style="text-decoration:none; color: white"> Contact</a></li>
+</ul>
+
+      <a href = "termsandconditions.html"> Terms and Conditions</a>
+    <p><a href="privacypolicy.html">Privacy Policy</a></p>
+  </div>
+  <br/>
+ <!-- body comments -->
+  <div class="bodycomments">
+  <p>Share with others what you think</p>  <textarea placeholder="please drop your comment here..."></textarea>
+  <button type ="submit">Post comment</button>
+  <div id ="bodyCommentsection"></div>
+  </div>
+  <br/>
+<!-- footer 2 -->
+<footer>
+    <div class="footer-body">
+      <div> Adventists Online</div>
+      <div>
+<p class="footer-info">We're a non-profit initiative, relying on donations to sustain our operations. Your support enables us to provide free access to our vast library of Adventist music, sermons, and many more. Kindly consider donating to help us continue this ministry.</p>
+        <ul>
+          <li><a href="aboutpage.html"> About </a></li>
+          <li><a href="whatsapp://send?phone=+256783101345&text=Hello, I really love Adventists Online App! I'd like you to make me a specific post or Advert on the app!" target="_blank"> Contact</a></li>
+          <li><a href='termsandconditions.html'> Terms & Conditions </a></li>
+          <li><a href="privacypolicy.html"> Privacy Policy </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      © 2025 Adventists Online Evangelistic App.
+      @erikis. All rights reserved.
+    </div>
+  </footer>
+<!-- loader and error message container -->
+    <div class="loader"></div>
+    
+    <!-- error message -->
+    <div class="error-message">Check your internet connection</div>
+    <button class="back-btn">&#8593;To Top</button>
+    <script>  
+/*function toggleCardContent(element) {
+  const cardContent = element.nextElementSibling;
+  cardContent.classList.toggle('expanded');
+}
+
+// Animate cards on scroll
+const cards = document.querySelectorAll('.card');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate-in-view');
+    }
+  });
+}, {
+  threshold: 0.5,
+});
+
+cards.forEach((card) => {
+  observer.observe(card);
+});
+//Scroll bar and percentage-indicator
+let scrollContainer = document.querySelector('.scroll-container');
+        let percentageIndicator = document.querySelector('.percentage-indicator');
+        let startX = 0;
+        let isScrolling = false;
+
+        scrollContainer.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+        });
+
+        scrollContainer.addEventListener('touchmove', (e) => {
+            if (!isScrolling && e.touches[0].clientX < startX - 50) {
+                scrollContainer.classList.add('show-scrollbar');
+                isScrolling = true;
+            }
+        });
+
+        scrollContainer.addEventListener('scroll', (e) => {
+            let scrollTop = scrollContainer.scrollTop;
+            let scrollHeight = scrollContainer.scrollHeight;
+            let clientHeight = scrollContainer.clientHeight;
+            let percentage = Math.round((scrollTop / (scrollHeight - clientHeight)) * 100);
+            percentageIndicator.textContent = `${percentage}%`;
+            percentageIndicator.style.top = `${scrollTop}px`;
+        });
+
+        scrollContainer.addEventListener('touchend', () => {
+            setTimeout(() => {
+                scrollContainer.classList.remove('show-scrollbar');
+                percentageIndicator.textContent = '';
+            }, 5000);
+            isScrolling = false;
+        });
+        //Modern Accordion
+        const accordionHeaders = document.querySelectorAll(".accordion-header");
+
+    accordionHeaders.forEach((header) => {
+      header.addEventListener("click", () => {
+        const accordionContent = header.nextElementSibling;
+        const isActive = header.classList.contains("active");
+
+        accordionHeaders.forEach((otherHeader) => {
+          otherHeader.classList.remove("active");
+          otherHeader.nextElementSibling.style.maxHeight = null;
+        });
+
+        if (!isActive) {
+          header.classList.add("active");
+          accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+        } else {
+          header.classList.remove("active");
+          accordionContent.style.maxHeight = null;
+        }
+      });
+    });
+    //Shuffle Carousel
+    const carouselItems = document.querySelectorAll('.carousel-item');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+
+let currentSlide = 0;
+let intervalId;
+
+carouselItems[currentSlide].classList.add('active');
+
+intervalId = setInterval(() => {
+  carouselItems[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % carouselItems.length;
+  carouselItems[currentSlide].classList.add('active');
+}, 3000);
+
+prevBtn.addEventListener('click', () => {
+  clearInterval(intervalId);
+  carouselItems[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide - 1 + carouselItems.length) % carouselItems.length;
+  carouselItems[currentSlide].classList.add('active');
+  setTimeout(() => {
+    intervalId = setInterval(() => {
+      carouselItems[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % carouselItems.length;
+      carouselItems[currentSlide].classList.add('active');
+    }, 3000);
+  }, 1000);
+});
+
+nextBtn.addEventListener('click', () => {
+  clearInterval(intervalId);
+  carouselItems[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % carouselItems.length;
+  carouselItems[currentSlide].classList.add('active');
+  setTimeout(() => {
+    intervalId = setInterval(() => {
+      carouselItems[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % carouselItems.length;
+      carouselItems[currentSlide].classList.add('active');
+    }, 3000);
+  }, 1000);
+});*/</script>
+    <script  src="script.js"></script>
+</body>
+</html>
